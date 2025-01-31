@@ -23,7 +23,7 @@ The API endpoint https://dog.ceo/api/breeds/image/random/12 fetches 12 random do
   "message": [
     "https://images.dog.ceo/breeds/hound-afghan/n02088094_1003.jpg",
     "https://images.dog.ceo/breeds/hound-basset/n02088238_10074.jpg",
-    //...
+    ...
   ],
   "status": "success"
 }
