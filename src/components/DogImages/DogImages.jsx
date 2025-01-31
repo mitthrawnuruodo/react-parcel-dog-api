@@ -6,7 +6,7 @@ function DogImages() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch('https://dog.ceo/api/breeds/image/random/12')
+    fetch('https://dog.ceo/api/breeds/image/random/20')
       .then((response) => response.json())
       .then((data) => setImages(data.message));
   }, []);
